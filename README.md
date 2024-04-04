@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 ## Selenium Java Framework
 
 **This project is designed and developed with the help of**
