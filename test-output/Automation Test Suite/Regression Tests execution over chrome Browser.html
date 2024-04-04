@@ -1,0 +1,184 @@
+<html>
+<head>
+<title>TestNG:  Regression Tests execution over chrome Browser</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression Tests execution over chrome Browser</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>21/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Apr 04 12:32:22 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>299 seconds (299395 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.selenium.tests.ProductPageAddToCartTest.AddToCartValidation()'><b>AddToCartValidation</b><br>Test class: org.selenium.tests.ProductPageAddToCartTest</td>
+<td></td>
+<td>7</td>
+<td>org.selenium.tests.ProductPageAddToCartTest@327c7bea</td></tr>
+<tr>
+<td title='org.selenium.tests.CheckoutPageValidationTest.CheckOutValidation()'><b>CheckOutValidation</b><br>Test class: org.selenium.tests.CheckoutPageValidationTest<br>Parameters: John, Doe, 12345</td>
+<td></td>
+<td>12</td>
+<td>org.selenium.tests.CheckoutPageValidationTest@6fd77352</td></tr>
+<tr>
+<td title='org.selenium.tests.CheckoutPageValidationTest.CheckOutValidation()'><b>CheckOutValidation</b><br>Test class: org.selenium.tests.CheckoutPageValidationTest<br>Parameters: Jane, Smith, 67890</td>
+<td></td>
+<td>10</td>
+<td>org.selenium.tests.CheckoutPageValidationTest@6fd77352</td></tr>
+<tr>
+<td title='org.selenium.tests.CheckoutPageValidationTest.CheckOutValidation()'><b>CheckOutValidation</b><br>Test class: org.selenium.tests.CheckoutPageValidationTest<br>Parameters: Alice, Johnson, 54321</td>
+<td></td>
+<td>9</td>
+<td>org.selenium.tests.CheckoutPageValidationTest@6fd77352</td></tr>
+<tr>
+<td title='org.selenium.tests.CheckoutPageValidationTest.CheckOutValidation()'><b>CheckOutValidation</b><br>Test class: org.selenium.tests.CheckoutPageValidationTest<br>Parameters: Bob, Williams, 98765</td>
+<td></td>
+<td>7</td>
+<td>org.selenium.tests.CheckoutPageValidationTest@6fd77352</td></tr>
+<tr>
+<td title='org.selenium.tests.CheckoutPageValidationTest.CheckOutValidation()'><b>CheckOutValidation</b><br>Test class: org.selenium.tests.CheckoutPageValidationTest<br>Parameters: Emily, Brown, 13579</td>
+<td></td>
+<td>9</td>
+<td>org.selenium.tests.CheckoutPageValidationTest@6fd77352</td></tr>
+<tr>
+<td title='org.selenium.tests.CheckoutPageValidationTest.CheckOutValidation()'><b>CheckOutValidation</b><br>Test class: org.selenium.tests.CheckoutPageValidationTest<br>Parameters: Michael, Jones, 24680</td>
+<td></td>
+<td>8</td>
+<td>org.selenium.tests.CheckoutPageValidationTest@6fd77352</td></tr>
+<tr>
+<td title='org.selenium.tests.CheckoutPageValidationTest.CheckOutValidation()'><b>CheckOutValidation</b><br>Test class: org.selenium.tests.CheckoutPageValidationTest<br>Parameters: Sarah, Davis, 97531</td>
+<td></td>
+<td>9</td>
+<td>org.selenium.tests.CheckoutPageValidationTest@6fd77352</td></tr>
+<tr>
+<td title='org.selenium.tests.ProductPagePriceValidationTest.PriceDropdownValidation()'><b>PriceDropdownValidation</b><br>Test class: org.selenium.tests.ProductPagePriceValidationTest</td>
+<td></td>
+<td>9</td>
+<td>org.selenium.tests.ProductPagePriceValidationTest@348d18a3</td></tr>
+<tr>
+<td title='org.selenium.tests.LoginPageLogoutTest.loginAndLogout()'><b>loginAndLogout</b><br>Test class: org.selenium.tests.LoginPageLogoutTest</td>
+<td></td>
+<td>14</td>
+<td>org.selenium.tests.LoginPageLogoutTest@3f672204</td></tr>
+<tr>
+<td title='org.selenium.tests.LoginPageInvalidCredentialsTest.loginWithInvalidCredentialsValidation()'><b>loginWithInvalidCredentialsValidation</b><br>Test class: org.selenium.tests.LoginPageInvalidCredentialsTest<br>Parameters: standard_user, secret_sauc</td>
+<td></td>
+<td>3</td>
+<td>org.selenium.tests.LoginPageInvalidCredentialsTest@5109e8cf</td></tr>
+<tr>
+<td title='org.selenium.tests.LoginPageInvalidCredentialsTest.loginWithInvalidCredentialsValidation()'><b>loginWithInvalidCredentialsValidation</b><br>Test class: org.selenium.tests.LoginPageInvalidCredentialsTest<br>Parameters: problem_user, secret_sauc</td>
+<td></td>
+<td>3</td>
+<td>org.selenium.tests.LoginPageInvalidCredentialsTest@5109e8cf</td></tr>
+<tr>
+<td title='org.selenium.tests.LoginPageInvalidCredentialsTest.loginWithInvalidCredentialsValidation()'><b>loginWithInvalidCredentialsValidation</b><br>Test class: org.selenium.tests.LoginPageInvalidCredentialsTest<br>Parameters: performance_glitch_user, secret_sauc</td>
+<td></td>
+<td>3</td>
+<td>org.selenium.tests.LoginPageInvalidCredentialsTest@5109e8cf</td></tr>
+<tr>
+<td title='org.selenium.tests.LoginPageInvalidCredentialsTest.loginWithInvalidCredentialsValidation()'><b>loginWithInvalidCredentialsValidation</b><br>Test class: org.selenium.tests.LoginPageInvalidCredentialsTest<br>Parameters: error_user, secret_sauc</td>
+<td></td>
+<td>2</td>
+<td>org.selenium.tests.LoginPageInvalidCredentialsTest@5109e8cf</td></tr>
+<tr>
+<td title='org.selenium.tests.LoginPageInvalidCredentialsTest.loginWithInvalidCredentialsValidation()'><b>loginWithInvalidCredentialsValidation</b><br>Test class: org.selenium.tests.LoginPageInvalidCredentialsTest<br>Parameters: visual_user, secret_sauc</td>
+<td></td>
+<td>5</td>
+<td>org.selenium.tests.LoginPageInvalidCredentialsTest@5109e8cf</td></tr>
+<tr>
+<td title='org.selenium.tests.LoginPageMultipleCredentialsTest.loginWithMultipleCredentials()'><b>loginWithMultipleCredentials</b><br>Test class: org.selenium.tests.LoginPageMultipleCredentialsTest<br>Parameters: standard_user, secret_sauce</td>
+<td></td>
+<td>8</td>
+<td>org.selenium.tests.LoginPageMultipleCredentialsTest@78b41097</td></tr>
+<tr>
+<td title='org.selenium.tests.LoginPageMultipleCredentialsTest.loginWithMultipleCredentials()'><b>loginWithMultipleCredentials</b><br>Test class: org.selenium.tests.LoginPageMultipleCredentialsTest<br>Parameters: problem_user, secret_sauce</td>
+<td></td>
+<td>5</td>
+<td>org.selenium.tests.LoginPageMultipleCredentialsTest@78b41097</td></tr>
+<tr>
+<td title='org.selenium.tests.LoginPageMultipleCredentialsTest.loginWithMultipleCredentials()'><b>loginWithMultipleCredentials</b><br>Test class: org.selenium.tests.LoginPageMultipleCredentialsTest<br>Parameters: performance_glitch_user, secret_sauce</td>
+<td></td>
+<td>10</td>
+<td>org.selenium.tests.LoginPageMultipleCredentialsTest@78b41097</td></tr>
+<tr>
+<td title='org.selenium.tests.LoginPageMultipleCredentialsTest.loginWithMultipleCredentials()'><b>loginWithMultipleCredentials</b><br>Test class: org.selenium.tests.LoginPageMultipleCredentialsTest<br>Parameters: error_user, secret_sauce</td>
+<td></td>
+<td>5</td>
+<td>org.selenium.tests.LoginPageMultipleCredentialsTest@78b41097</td></tr>
+<tr>
+<td title='org.selenium.tests.LoginPageMultipleCredentialsTest.loginWithMultipleCredentials()'><b>loginWithMultipleCredentials</b><br>Test class: org.selenium.tests.LoginPageMultipleCredentialsTest<br>Parameters: visual_user, secret_sauce</td>
+<td></td>
+<td>6</td>
+<td>org.selenium.tests.LoginPageMultipleCredentialsTest@78b41097</td></tr>
+<tr>
+<td title='org.selenium.tests.LoginPageValidCredentialsTest.loginWithValidCredentials()'><b>loginWithValidCredentials</b><br>Test class: org.selenium.tests.LoginPageValidCredentialsTest</td>
+<td></td>
+<td>3</td>
+<td>org.selenium.tests.LoginPageValidCredentialsTest@2c2db130</td></tr>
+</table><p>
+</body>
+</html>
