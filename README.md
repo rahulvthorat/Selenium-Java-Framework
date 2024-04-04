@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 ## Selenium Java Framework
 
@@ -115,3 +116,6 @@
 
 
 
+=======
+# Selenium-Java-Framework
+>>>>>>> ff7a6cda68c8856b7c96d6a209c8a6707c24c6b1
