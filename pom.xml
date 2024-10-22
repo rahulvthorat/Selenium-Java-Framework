@@ -10,9 +10,7 @@
 		<maven.compiler.source>8</maven.compiler.source>
 		<maven.compiler.target>8</maven.compiler.target>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<!-- DEFAULT - If you do not pass any value with mvn test, then, this
-		value 
-			will be used -->
+		<!-- DEFAULT - If you do not pass any value with mvn test, then, this value	will be used -->
 		<suiteFile>testng_Local</suiteFile>
 		<aspectj.version>1.9.4</aspectj.version>
 		<browserInstances>2</browserInstances>
@@ -56,7 +54,7 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>4.18.1</version>
+			<version>4.19.1</version>
 		</dependency>
 
 
@@ -67,9 +65,7 @@
 			<scope>compile</scope>
 		</dependency>
 
-		<!-- This dependency helps in Serialization (Java POJO -> JSON) and
-		De-Serialization 
-			(JSON -> Java POJO) -->
+		<!-- This dependency helps in Serialization (Java POJO -> JSON) and De-Serialization (JSON -> Java POJO) -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
@@ -149,7 +145,6 @@
 			<artifactId>poi-ooxml</artifactId>
 			<version>4.1.2</version>
 		</dependency>
-
 
 	</dependencies>
 
